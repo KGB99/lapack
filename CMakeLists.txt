@@ -450,9 +450,9 @@ endif()
 set(LAPACK_INSTALL_EXPORT_NAME ${LAPACK_INSTALL_EXPORT_NAME_CACHE})
 unset(LAPACK_INSTALL_EXPORT_NAME_CACHE)
 
-if(LAPACKE)
-  add_subdirectory(LAPACKE)
-endif()
+#if(LAPACKE)
+#  add_subdirectory(LAPACKE)
+#endif()
 
 
 #-------------------------------------
